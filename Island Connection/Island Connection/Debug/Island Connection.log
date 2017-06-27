@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\pddho\documents\github\algorithm\island connection\island connection\main.cpp(66): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\pddho\documents\github\algorithm\island connection\island connection\main.cpp(67): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\pddho\documents\github\algorithm\island connection\island connection\main.cpp(80): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\pddho\documents\github\algorithm\island connection\island connection\main.cpp(90): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\pddho\documents\github\algorithm\island connection\island connection\main.cpp(46): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(242): note: 'freopen' 선언을 참조하십시오.
+  Island Connection.vcxproj -> C:\Users\pddho\Documents\GitHub\Algorithm\Island Connection\Debug\Island Connection.exe
+  Island Connection.vcxproj -> C:\Users\pddho\Documents\GitHub\Algorithm\Island Connection\Debug\Island Connection.pdb (Partial PDB)
