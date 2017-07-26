@@ -1,0 +1,29 @@
+﻿  소스.cpp
+c:\users\pddho\documents\github\algorithm\frag_princess\2\2\소스.cpp(30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\pddho\documents\github\algorithm\frag_princess\2\2\소스.cpp(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\algorithm(2309): error C2672: 'operator __surrogate_func': 일치하는 오버로드된 함수가 없습니다.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\algorithm(2329): note: 컴파일 중인 함수 템플릿 인스턴스화 '_FwdIt std::_Lower_bound_unchecked<std::pair<int,std::vector<int,std::allocator<_Ty>>>*,_Ty,_Pr>(_FwdIt,_FwdIt,const _Ty &,_Pr &)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _FwdIt=std::pair<int,std::vector<int,std::allocator<int>>> *,
+              _Ty=int,
+              _Pr=std::less<void>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\algorithm(2337): note: 컴파일 중인 함수 템플릿 인스턴스화 '_FwdIt std::lower_bound<_FwdIt,_Ty,std::less<void>>(_FwdIt,_FwdIt,const _Ty &,_Pr)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,std::vector<int,std::allocator<int>>>>>>,
+              _Ty=int,
+              _Pr=std::less<void>
+          ]
+  c:\users\pddho\documents\github\algorithm\frag_princess\2\2\소스.cpp(20): note: 컴파일 중인 함수 템플릿 인스턴스화 '_FwdIt std::lower_bound<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,std::vector<int,std::allocator<_Ty>>>>>>,int>(_FwdIt,_FwdIt,const _Ty &)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,std::vector<int,std::allocator<int>>>>>>,
+              _Ty=int
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\algorithm(2309): error C2893: 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const' 함수 템플릿을 특수화하지 못했습니다.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\algorithm(2309): note: 다음 템플릿 인수 사용:
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\algorithm(2309): note: '_Ty1=std::pair<int,std::vector<int,std::allocator<_Ty>>> &'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\algorithm(2309): note: '_Ty2=const int &'
